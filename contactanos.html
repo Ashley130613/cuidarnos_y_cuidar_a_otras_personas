@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(253, 253, 253);
+            margin: 0%;
+        }
+        nav{
+            background-color: rgb(221, 62, 200);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            background-color: #c55a99;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 9px;
+            display: inline-block;
+        }
+        .nav a:hover{
+            background-color: #e780b0;
+            color:rgb(82, 123, 199)
+        }
+        .h1{
+            text-align: center;
+            color:rgb(54, 4, 65)
+        }
+        .logos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logos img {
+           width: 100px;
+           height: 100px;
+           object-fit: contain;
+        }
+        button {
+            background-color: #4289db;
+            color: white;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color:  #4289db;
+        }
+        nav{
+            background-color: rgb(221, 62, 200);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            background-color: #c55a99;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 9px;
+            display: inline-block;
+        }
+        nav a:hover{
+            background-color: #e780b0;
+            color:rgb(82, 123, 199)
+        }
+        .contenedor{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:15px;
+            max-width: 1000px;
+            margin:auto
+        }
+        .card{
+            background-color: rgb(180, 180, 231);
+            border-radius: 12px;
+            padding:15px;
+            text-align: center;
+            box-shadow: 0 4px 8px #413e3e;
+            transition: 0.3s;
+        }
+        .card img{
+            width:70%;
+            height:250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px #999;
+            transition: all 0.3s;
+        }
+        .card img:hover{
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px #666;
+            cursor: pointer;
+        }
+        .logos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logos img {
+           width: 100px;
+           height: 100px;
+           object-fit: contain;
+        }  
+        img{
+            width: 350px;
+            height:400px;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+     <a href="directorios_de_apoyo_con_links.html">Anterior</a>
+     <a href="index.html">Inicio</a>
+   </nav>
+   <div class="logos">
+        <img src="img/logo.png" alt="Logo izquierdo">
+
+        <h1>Contactanos</h1>
+
+        <img src="img/logo_cecy.jpg" alt="Logo derecho">
+</div>
+<br>
+<br>
+ <div class="contenedor">
+        <div class="card">
+            <img src="img/cristian.jpeg">
+            <h2>Christian Bonilla Romero</h2>
+            <p>251405961@cecytejalisco.edu.mx</p>
+        </div>
+        <div class="card">
+            <img src="img/dennis.jpeg">
+            <h2>Fatima Dennis Perez Jacobo</h2>
+            <p>251406098@cecytejalisco.edu.mx</p>
+        </div>
+        <div class="card">
+            <img src="img/jenny.jpeg">
+            <h2>Jennifer Monserrat Barajas Perez</h2>
+            <p>251406048@cecytejalisco.edu.mx</p>
+        </div>
+        <div class="card">
+            <img src="img/brittany.jpeg">
+            <h2>Brittanny Janeth Garcia Meza</h2>
+            <p>251406059@cecytejalisco.edu.mx</p>
+        </div>    
+        <div class="card">
+            <img src="img/maria.jpeg">
+            <h2>María José Jacobo Negrete</h2>
+            <p>251406063@cecytejalisco.edu.mx</p>
+        </div>
+        <div class="card">
+            <img src="img/yo.jpeg">
+            <h2>Ashley Lizeth Barajas Mejía</h2>
+            <p>251406047@cecytejalisco.edu.mx</p>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="img/qr.jpeg">    
+</body>
+</html>
